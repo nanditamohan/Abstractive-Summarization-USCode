@@ -1,12 +1,15 @@
 absl-py==0.9.0
+astor==0.8.1
 astunparse==1.6.3
 cachetools==4.1.0
 certifi==2020.4.5.1
 chardet==3.0.4
 click==7.1.2
+cloudpickle==1.1.1
+decorator==4.4.2
 Flask==1.1.2
 funcsigs==1.0.2
-gast==0.3.3
+gast==0.2.2
 google-auth==1.14.2
 google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
@@ -15,9 +18,11 @@ h5py==2.10.0
 idna==2.9
 itsdangerous==1.1.0
 Jinja2==2.11.2
+Keras-Applications==1.0.8
 Keras-Preprocessing==1.1.0
 Markdown==3.2.1
 MarkupSafe==1.1.1
+mypy-extensions==0.4.3
 numpy==1.16.6
 oauthlib==3.1.0
 opt-einsum==3.2.1
@@ -35,12 +40,10 @@ rsa==4.0
 scipy==1.4.1
 sentencepiece==0.1.86
 six==1.14.0
-tensorboard==2.2.1
-tensorboard-plugin-wit==1.6.0.post3
-tensorflow==2.2.0
-tensorflow-estimator==2.2.0
+tensorboard==1.12.2
+tensorflow @ https://files.pythonhosted.org/packages/f3/79/4ff51dbced622bfe1ed5237e8aaf39d0650c73c3b31d5a7d1d6cf201352a/tensorflow-1.12.3-cp36-cp36m-macosx_10_11_x86_64.whl
 termcolor==1.1.0
-texar==0.2.4
+-e git://github.com/asyml/texar.git@573a80d818e7e1d24fe58d99d5a5100b56b571f7#egg=texar
 urllib3==1.25.9
 Werkzeug==1.0.1
 wrapt==1.12.1

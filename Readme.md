@@ -10,12 +10,19 @@ One of the advantages of using Transfomer Networks is training is much faster th
 
 Transformer based models generate more gramatically correct  and coherent sentences.
 
+<h3>Setup</h3>
+<pre>
+pyenv local 3.6.10
+virtualenv --python=/Users/Abby/.pyenv/shims/python3.6 venv
+source venv/bin/activate
+pip install -r requirements.txt
+wget https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip
+unzip uncased_L-12_H-768_A-12.zip
+</pre>
+
 
 <h3>To run the model</h3>
 <pre>
-wget https://storage.googleapis.com/bert_models/2018_10_18/uncased_L-12_H-768_A-12.zip 
-unzip uncased_L-12_H-768_A-12.zip
-
 Place the story and summary files under data folder with the following names.
 -train_story.txt
 -train_summ.txt
